@@ -1,0 +1,107 @@
+
+body{
+  background-image: url(background.jpg);
+   background-size:cover;
+   /* inserimento immagine di sfondo */
+}
+
+
+.conteiner{
+  width: 50%;
+  margin: auto;
+  /* Centramento del body */
+}
+
+.background{
+  border: 2px  rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* creazione di una div per poter inserire un background al box size, */
+  /* non sono riuscita a risolvere il prob con semplicità */
+}
+
+body{
+  width:900px;
+  height: 700px;
+  padding:10px;
+  box-sizing: content-box;
+  margin:auto;
+  /* creazione del Box */
+}
+
+
+h1{
+  color: Lime;
+  text-align: center;
+}
+
+
+.logo1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:44%;
+/* Inserimento logo e centramento */
+}
+
+nav{
+  width: 700px;
+  margin: auto;
+  box-sizing: content-box;
+  padding: 10px;
+  background-color: Lime;
+    text-align: center;
+    /* barra creata attarverso una box size che contiene gli input */
+}
+
+main{
+  width: 700px;
+  margin: auto;
+}
+/* Inizio modifica del main con cambio font, size e color */
+h2{
+  font-family: 'Trebuchet MS', sans-serif;
+  color: white;
+}
+.M1{
+  font-family: 'Courier New', monospace;
+  color: white;
+}
+.M2{
+  font-family: 'Courier New', monospace;
+  color: white;
+}.M3{
+  font-family: 'Courier New', monospace;
+  color: white;
+}
+p{
+  font-family: 'Courier New', monospace;
+  color: white;
+}
+/* creazione delle linee di carica attraverso box sizing */
+.stato1{
+  box-sizing: content-box;
+  width: 200px;
+  padding: 10px;
+  border-radius: 8px;
+  order: 2px solid yellow;
+  margin: 0;
+  background-color: yellow;
+}
+.stato2{
+  box-sizing: content-box;
+  width: 350px;
+  border-radius: 8px;
+  order: 2px solid lime;
+  padding: 10px;
+  background-color: Lime;
+}
+.stato3{
+  box-sizing: content-box;
+  width: 80px;
+  padding: 10px;
+  border-radius: 8px;
+  order: 2px solid red
+  margin: 0;
+  background-color: red;
+}
